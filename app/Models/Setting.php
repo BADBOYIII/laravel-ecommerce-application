@@ -2,7 +2,8 @@
 
 namespace App\Models;
 
-use Config;
+// use Config;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Database\Eloquent\Model;
 
 class Setting extends Model
