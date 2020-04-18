@@ -9,7 +9,7 @@ $factory->define(Category::class, function (Faker $faker) {
     return [
         'name' => $faker->name,
         'description' => $faker->name,
-        'parant_id' => 1,
+        'parent_id' => 1,
         'menu' => 1,
     ];
 });
